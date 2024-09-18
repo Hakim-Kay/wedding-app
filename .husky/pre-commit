@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Run tests
+npm test
+
+# Run staging deployment check
+npx ts-node --esm scripts/pre-commit-staging-check.mts
