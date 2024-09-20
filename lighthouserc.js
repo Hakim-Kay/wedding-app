@@ -2,7 +2,7 @@ module.exports = {
     ci: {
         collect: {
             staticDistDir: '.next',
-            url: ['/'],
+            url: ['http://localhost:3000'],
             startServerCommand: 'npm run start',
         },
         upload: {
